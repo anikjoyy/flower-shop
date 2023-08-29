@@ -1,5 +1,5 @@
 /* google fonts  */
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
 
 /* global css  */
 * {
@@ -9,5 +9,39 @@
 }
 
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Lato', sans-serif;
+}
+
+.text-primary {
+  color: #e55473;
+}
+
+/* footer related css  */
+.footer {
+  background: #111010;
+}
+
+.footer-title {
+  text-align: center;
+  color: #ffffff;
+  font-size: 48px;
+  font-weight: 700;
+  padding-top: 90px;
+}
+
+.footer-description {
+  font-size: 18px;
+  text-align: center;
+  color: #ffffff;
+  font-weight: 400;
+  padding-top: 20px;
+}
+
+.footer-description2 {
+  font-size: 16px;
+  text-align: center;
+  color: #ffffff;
+  font-weight: 400;
+  padding-top: 20px;
+  padding-bottom: 100px;
 }
