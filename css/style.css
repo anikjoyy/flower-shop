@@ -29,8 +29,8 @@ body {
 }
 
 .btn-primary:hover {
-  background: transparent;
-  border: 1px solid #e55473;
+  background: #ffffff;
+  border-color: #e55473;
   color: #e55473;
 }
 
@@ -43,6 +43,28 @@ main {
 /* section related css  */
 section {
   margin-top: 130px;
+}
+
+/* header related css  */
+.header {
+  background-color: #f0d9de;
+  padding: 30px 30px 0 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 380px;
+}
+
+.header-title {
+  font-size: 85px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.header-description {
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 40px;
 }
 
 /* featured related css  */
